@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+advertising-locations = "*"
+fastapi = "*"
+pydantic = "*"
+python-multipart = "*"
+uvicorn = {extras = ["standard"] }
+aiohttp = "*"
+numpy = "<2.0.0"
+pandas = "*"
+catboost = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"
+python_full_version = "3.12.4"
