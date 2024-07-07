@@ -52,7 +52,7 @@ async def polygons(
         num_banners=count,
         num_polygons=40 ** 2,
         target_audience=target_audience.TA,
-        iterations=(8 if mode == GeneticsMode.QUICK else 16)
+        iterations=(20 if mode == GeneticsMode.QUICK else 50)
     )
 
     with open("temp.txt", "w") as f:
